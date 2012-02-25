@@ -1,5 +1,9 @@
 ## ServMe
-#  v0.1
+#  v0.2
 
-run: python ServMe.py <port> &
+run: python ServMe.py <host> <port> &
 connect: telnet localhost <port>
+
+Example
+python ServMe.py 127.0.0.1 1337 &
+telnet 127.0.0.1 1337
