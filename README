@@ -1,0 +1,5 @@
+## ServMe
+#  v0.1
+
+run: python ServMe.py <port> &
+connect: telnet localhost <port>
